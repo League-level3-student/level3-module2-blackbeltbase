@@ -8,7 +8,7 @@ public class _00_SortedArrayChecker {
 	//   array is in ascending order and false otherwise
 static boolean intArraySorted(int[] intArray) {
 	for (int i = 0; i < intArray.length-1; i++) {
-		if(intArray[i]<intArray[i+1]) {
+		if(intArray[i]<=intArray[i+1]) {
 		}
 		else {
 			return false;
@@ -24,7 +24,7 @@ static boolean intArraySorted(int[] intArray) {
 	//   array is in ascending order and false otherwise
 static boolean doubleArraySorted(double[] doubleArray) {
 	for (int i = 0; i < doubleArray.length-1; i++) {
-		if(doubleArray[i]<doubleArray[i+1]) {
+		if(doubleArray[i]<=doubleArray[i+1]) {
 		}
 		else {
 			return false;
